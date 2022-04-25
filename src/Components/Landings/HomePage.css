@@ -1,0 +1,40 @@
+/* Container needed to position the button. Adjust the width as needed */
+.containerHome {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .containerHome img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .containerHome .butn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #e77878;
+    color: white;
+    font-size: 16px;
+    padding: 12px 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  
+  .containerHome .butn:hover {
+    background-color: #0a0a0a;
+    transition: all 0.5s;
+  }
+
+  @media screen and (max-width: 700px) {
+      .containerHome {
+          width: 100vw;
+          overflow: hidden;
+      }
+  }
