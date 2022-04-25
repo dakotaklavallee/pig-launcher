@@ -8,4 +8,4 @@ Built with React, HTML5, CSS3, and Javascript.
 
 Try it here:
 
-<a href="https://pig-launcher.vercel.app/">Try Me</a>
+<a href="https://pig-launcher.vercel.app/" target="_blank">Try Me</a>
